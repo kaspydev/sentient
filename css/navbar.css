@@ -1,0 +1,38 @@
+body {
+padding: 30px;
+width: 1300px:;
+}
+
+.navbar {
+margin-bottom: 30px;
+border-bottom:1px solid #e7e7e7;
+}
+
+.navbar-default {
+    background-color: white;
+    border-color: #e7e7e7;
+}
+
+.navbar-brand{
+	padding: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #002366;
+}
+
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;}
+
+.lead{
+    	text-align: justify;
+    }
+
+.center{
+	text-align: center;
+}
+
+.titulo{
+
+}
