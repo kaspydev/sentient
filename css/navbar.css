@@ -36,3 +36,32 @@ border-bottom:1px solid #e7e7e7;
 .titulo{
 
 }
+
+.rotate{
+	transform:  rotate(180deg);
+}
+
+.comillas{
+	display: inline-block;
+}
+
+@media screen and (max-width:480px){
+    .comillas{
+        width: 9%;
+        display: block;
+        position: relative;
+        left: 43%;
+    }
+
+    .text-parrafo{
+        margin: 2% 0;
+    }
+
+    .img-logo{
+        width: 125px;
+        display: inline-block;
+        position: relative;
+        left: 100%;
+    }
+}
+
