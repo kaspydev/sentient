@@ -1,0 +1,31 @@
+/*aqui van las fonts*/
+@font-face {
+    font-family: Proxima-nova;
+    src: url(../fonts/proxima-nova/proximanova-regular-webfont.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Proxima-nova;
+    src: url(../fonts/proxima-nova/proximanova-light-webfont.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Proxima-nova;
+    src: url(../fonts/proxima-nova/proximanova-bold-webfont.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Proxima-nova;
+    src: url(../fonts/proxima-nova/proximanova-regitalic-webfont.ttf);
+    font-style:italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Proxima-nova;
+    src: url(../fonts/proxima-nova/ProximaNova-Semibold.otf);
+    font-weight: 500;
+}

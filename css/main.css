@@ -1,0 +1,124 @@
+body {
+padding: 30px;
+
+font-family: Proxima-nova;
+}
+
+p{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.4
+}
+
+.navbar {
+margin-bottom: 30px;
+border-bottom:1px solid #e7e7e7;
+}
+
+.navbar-default {
+    background-color: white;
+    border-color: #e7e7e7;
+    transform:translateY(-24px);
+}
+
+.navbar-brand{
+	padding: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #002366;
+}
+
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;}
+
+.lead{
+    	text-align: justify;
+    }
+
+h1.titulo{
+ font-weight: normal;
+ font-size:50px;
+ color: #002366;
+padding-top:10px;
+padding-bottom: 35px;
+
+ 
+}
+
+.quote-box:before
+{
+    content:"";
+background-image:url('../img/logo-iconos/quote.png');
+    width: 20px;
+    height: 18px;
+     display: inline-block;
+}
+
+.quote-box:after
+{   content:"";
+    background-image:url('../img/logo-iconos/quote.png');
+    transform:  rotate(180deg);
+    width: 20px;
+    height: 18px;
+     display: inline-block;
+
+}
+.quote-box p
+{
+    display: inline;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 20px 0px;
+}
+
+
+.comillas{
+	display: inline-block;
+}
+
+@media screen and (max-width:480px){
+
+    h1.titulo{
+       font-weight: normal;
+       font-size:45px;
+
+   }
+      
+    .quote-box p
+    {
+        text-align: center;
+            display: block; 
+    }
+
+
+    .img-logo{
+        width: 125px;
+        display: inline-block;
+        position: relative;
+        left: 100%;
+    }
+    .quote-box:before,  .quote-box:after{
+        background-repeat: no-repeat;
+        display: block;
+        margin: auto;
+
+        line-height: 10px;
+    }
+
+     .quote-box:before{
+        margin-bottom: 20px;
+    }
+     .quote-box:after{
+        margin-top: 20px;
+    }
+}
+
+/*@media screen and (max-width:600px){
+.quote-box:before,  .quote-box:after{
+        background-repeat: no-repeat;
+        display: block;
+        margin: auto;
+    }
+}*/
